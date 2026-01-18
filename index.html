@@ -2,49 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Jax Emergency Trees | 24/7 Storm Tree Removal Jacksonville FL</title>
     <meta name="description" content="Emergency tree removal in Jacksonville, FL. 30-minute callback for storm damage cleanup and hazardous tree removal.">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>html { scroll-behavior: smooth; }</style>
 </head>
-<body class="bg-stone-100 font-sans text-stone-900">
-    <div class="bg-amber-700 text-white text-center py-2 font-bold uppercase text-xs tracking-tighter">
-        ⚠️ PRIORITY STORM RESPONSE - CREW CALLBACK IN 30 MINUTES
+<body class="bg-stone-100 font-sans text-stone-900 pb-20 md:pb-0">
+
+    <div class="fixed bottom-0 left-0 right-0 p-4 bg-white/90 backdrop-blur-sm border-t md:hidden z-50">
+        <a href="#lead-form" class="flex items-center justify-center bg-green-700 text-white font-black py-4 rounded-xl text-lg shadow-lg">
+            🌲 REQUEST CREW ESTIMATE
+        </a>
     </div>
-    <main class="max-w-6xl mx-auto py-12 px-6 grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+    <div class="bg-amber-700 text-white text-center py-2 font-bold uppercase text-[10px] tracking-tighter px-2">
+        ⚠️ Jacksonville Alert: Crews Active - Request Triage Now (30 Min Callback)
+    </div>
+
+    <main class="max-w-6xl mx-auto py-8 md:py-12 px-4 md:px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
         <header>
-            <img src="pics/trees.png" alt="Tree removal crew using a crane in Jacksonville" class="rounded-xl shadow-lg mb-6 w-full h-80 object-cover">
-            <h1 class="text-5xl font-black mb-6 text-stone-800">Jacksonville <span class="text-green-800">Tree Rescue</span></h1>
+            <img src="pics/trees.png" alt="Jacksonville Emergency Tree Removal" class="rounded-xl shadow-lg mb-6 w-full h-56 md:h-80 object-cover">
+            <h1 class="text-3xl md:text-5xl font-black mb-4 text-stone-800 leading-tight">Jacksonville <br><span class="text-green-800">Tree Rescue</span></h1>
+            <p class="text-lg md:text-xl text-stone-600 mb-8">Rapid response for trees on houses, blocked roads, and storm cleanup.</p>
             
-            <h2 class="text-2xl font-bold mb-4">Tree Crisis Services</h2>
-            <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 text-stone-700 mb-8">
+            <h2 class="text-xl font-bold mb-4">Core Services:</h2>
+            <ul class="grid grid-cols-1 gap-2 text-stone-700 text-sm mb-8">
                 <li>• Storm Damage Cleanup</li>
                 <li>• Crane-Assisted Removal</li>
                 <li>• Hazardous Limb Pruning</li>
                 <li>• Structural Risk Assessment</li>
-                <li>• Debris Hauling & Chipping</li>
             </ul>
         </header>
 
-        <section class="bg-white p-8 rounded shadow-2xl border-b-8 border-green-800">
-            <h2 class="text-2xl font-bold mb-4">Request Emergency Quote</h2>
+        <section id="lead-form" class="bg-white p-6 md:p-8 rounded shadow-2xl border-b-8 border-green-800">
+            <h2 class="text-xl md:text-2xl font-bold mb-4 text-center">Request Dispatch</h2>
             <form action="#" class="space-y-4">
-                <input type="text" placeholder="Address of Property" required class="w-full p-4 border border-stone-200 outline-none focus:border-green-800">
-                <input type="tel" placeholder="Phone Number" required class="w-full p-4 border border-stone-200 outline-none focus:border-green-800">
-                <select class="w-full p-4 border border-stone-200 outline-none focus:border-green-800">
+                <input type="text" placeholder="Address of Property" required class="w-full p-4 border border-stone-200 text-lg outline-none focus:border-green-800">
+                <input type="tel" placeholder="Phone Number" required class="w-full p-4 border border-stone-200 text-lg outline-none focus:border-green-800">
+                <select class="w-full p-4 border border-stone-200 text-lg">
                     <option>Tree on House / Structure</option>
                     <option>Blocked Driveway / Road</option>
-                    <option>Hanging / Dangerous Limb</option>
+                    <option>Dangerous Hanging Limb</option>
                 </select>
-                <button class="w-full bg-green-800 text-white font-black py-4 rounded text-xl uppercase shadow-md">Get Crew Response</button>
+                <button class="w-full bg-green-800 text-white font-black py-5 rounded text-xl uppercase shadow-md active:scale-95 transition">Get Crew Response</button>
             </form>
         </section>
     </main>
 
-    <footer class="bg-stone-900 text-white py-10 px-6">
-        <div class="max-w-6xl mx-auto">
-            <h3 class="font-bold mb-4 uppercase tracking-widest text-sm text-stone-400">Serving Jacksonville & Duval County:</h3>
-            <p class="text-sm text-stone-300">Riverside, Mandarin, San Marco, Arlington, Southside, Jacksonville Beach, Neptune Beach, Atlantic Beach, Northside, and Orange Park.</p>
+    <footer class="bg-stone-900 text-white py-10 px-6 mb-12 md:mb-0">
+        <div class="max-w-6xl mx-auto text-center md:text-left">
+            <h3 class="font-bold mb-4 uppercase tracking-widest text-xs text-stone-400">Serving Duval County:</h3>
+            <p class="text-xs text-gray-300">Riverside, Mandarin, San Marco, Southside, Jacksonville Beach.</p>
         </div>
     </footer>
 </body>
